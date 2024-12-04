@@ -20,11 +20,11 @@ for data in soup.find_all('article', class_="Box-row"):
 
     count+=1
 
-# def save_to_json(datas, file="data.json"):
-#     with open(file,"w",encoding="utf-8")as f:
-#         json.dump(datas, f, ensure_ascii=False, indent=4)
+def save_to_json(datas, file="data.json"):
+    with open(file,"w",encoding="utf-8")as f:
+        json.dump(datas, f, ensure_ascii=False, indent=4)
 
-# save_to_json(datas)
+save_to_json(datas)
 
 def html(file="data.json", file_html="index.html"):
     with open(file,"r",encoding="utf-8")as f:
@@ -76,7 +76,7 @@ def html(file="data.json", file_html="index.html"):
                 </tr>
     '''
 
-    # Добавление цитат в таблицу
+    
     for id, data in enumerate(datas, 1):
         html_cont += f'''
         <tr>
@@ -86,7 +86,7 @@ def html(file="data.json", file_html="index.html"):
         </tr>
         '''
 
-    # Завершение HTML-контента
+    
     html_cont += '''
             </table>
             <p>
@@ -97,9 +97,9 @@ def html(file="data.json", file_html="index.html"):
 </html>
     '''
 
-    # Запись HTML-контента в файл
+    
     with open(file_html, "w", encoding="utf-8") as f:
         f.write(html_cont)
 
-# Вызов функции для генерации HTML
+
 html()
