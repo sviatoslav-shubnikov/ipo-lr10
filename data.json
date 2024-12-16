@@ -1,82 +1,86 @@
 [
     {
-        "Repository": "LadybirdBrowser/ladybird",
-        "Stars": "24,808"
+        "Repository": "Byaidu/PDFMathTranslate",
+        "Stars": "7,885"
     },
     {
-        "Repository": "lobehub/lobe-chat",
-        "Stars": "47,009"
+        "Repository": "bigskysoftware/htmx",
+        "Stars": "39,074"
     },
     {
-        "Repository": "pydantic/pydantic-ai",
-        "Stars": "1,340"
+        "Repository": "TEN-framework/TEN-Agent",
+        "Stars": "2,899"
     },
     {
-        "Repository": "myhhub/stock",
-        "Stars": "5,250"
+        "Repository": "google-gemini/cookbook",
+        "Stars": "6,792"
     },
     {
-        "Repository": "521xueweihan/HelloGitHub",
-        "Stars": "95,075"
+        "Repository": "yt-dlp/yt-dlp",
+        "Stars": "93,146"
     },
     {
-        "Repository": "leptos-rs/leptos",
-        "Stars": "16,723"
+        "Repository": "Saghen/blink.cmp",
+        "Stars": "1,866"
     },
     {
-        "Repository": "skills/introduction-to-github",
-        "Stars": "5,687"
+        "Repository": "ByteByteGoHq/system-design-101",
+        "Stars": "65,789"
     },
     {
-        "Repository": "sdmg15/Best-websites-a-programmer-should-visit",
-        "Stars": "63,181"
+        "Repository": "wavetermdev/waveterm",
+        "Stars": "6,443"
     },
     {
-        "Repository": "Guovin/iptv-api",
-        "Stars": "7,524"
+        "Repository": "DS4SD/docling",
+        "Stars": "14,856"
     },
     {
-        "Repository": "CyC2018/CS-Notes",
-        "Stars": "177,630"
+        "Repository": "commaai/openpilot",
+        "Stars": "50,798"
     },
     {
-        "Repository": "FiloSottile/mkcert",
-        "Stars": "50,759"
+        "Repository": "DataExpert-io/data-engineer-handbook",
+        "Stars": "23,234"
     },
     {
-        "Repository": "dockur/windows",
-        "Stars": "30,309"
+        "Repository": "godotengine/godot",
+        "Stars": "91,939"
     },
     {
-        "Repository": "codecrafters-io/build-your-own-x",
-        "Stars": "315,547"
+        "Repository": "midday-ai/midday",
+        "Stars": "6,235"
     },
     {
-        "Repository": "Tencent/rapidjson",
-        "Stars": "14,301"
+        "Repository": "bluewave-labs/checkmate",
+        "Stars": "2,498"
     },
     {
-        "Repository": "skills/github-pages",
-        "Stars": "809"
+        "Repository": "LazyVim/LazyVim",
+        "Stars": "17,994"
     },
     {
-        "Repository": "anthropics/anthropic-cookbook",
-        "Stars": "7,065"
+        "Repository": "KRTirtho/spotube",
+        "Stars": "32,452"
     },
     {
-        "Repository": "ai16z/eliza",
-        "Stars": "2,885"
+        "Repository": "PaperMC/Paper",
+        "Stars": "10,239"
     },
     {
-        "Repository": "overleaf/overleaf",
-        "Stars": "14,256"
+        "Repository": "RIOT-OS/RIOT",
+        "Stars": "5,166"
     },
     {
-        "Repository": "Expensify/App",
-        "Stars": "3,608"
+        "Repository": "wasp-lang/wasp",
+        "Stars": "14,239"
     },
     {
-        "Repository": "ansible/ansible",
-        "Stars": "63,168"
+        "Repository": "microsoft/windows-rs",
+        "Stars": "10,673"
+    },
+    {
+        "Repository": "flame-engine/flame",
+        "Stars": "9,510"
     }
 ]
