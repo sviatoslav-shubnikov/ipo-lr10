@@ -28,38 +28,61 @@ def save_to_json(datas, file="data.json"):
 
 save_to_json(datas)
 
-def html(file="data.json", file_html="index.html"):
+def html(file="data.json", template_file="template.html", output_file="index.html"):
     with open(file, "r", encoding="utf-8") as f:
         datas = json.load(f)
-    
-    with open(file_html, "r", encoding="utf-8") as f:
-        soup = bs(f, "html.parser")
-    
-    table = soup.find("table", class_="table")
-    if not table:
-        print(f"Ошибка: Таблица с классом 'table' не найдена в шаблоне.")
-        return
 
-    # Добавление строк данных в таблицу
-    for id, data in enumerate(datas, 1):
+    with open(template_file, "r", encoding="utf-8") as f:
+        template = f.read()
+
+    soup = bs(template, "html.parser")
+    container = soup.find("div", class_="place-here")
+    
+    if not container:
+        raise ValueError("Template is missing a 'place-here' element for the table.")
+
+    table = Tag(name="table", attrs={"class": "quotes-table"})
+    
+    # Create table headers
+    thead = Tag(name="thead")
+    tr_head = Tag(name="tr")
+    headers = ["№", "Repository", "Stars"]
+    
+    for header in headers:
+        th = Tag(name="th")
+        th.string = header
+        tr_head.append(th)
+    
+    thead.append(tr_head)
+    table.append(thead)
+
+    # Create table body
+    tbody = Tag(name="tbody")
+    
+    for idx, data in enumerate(datas, start=1):
         tr = Tag(name="tr")
-        
+
         td_num = Tag(name="td")
-        td_num.string = str(id)
+        td_num.string = str(idx)
         tr.append(td_num)
-        
+
         td_repo = Tag(name="td")
         td_repo.string = data["Repository"]
         tr.append(td_repo)
-        
+
         td_stars = Tag(name="td")
         td_stars.string = data["Stars"]
         tr.append(td_stars)
-        
-        table.append(tr)
 
-    # Сохранение изменений в тот же HTML-файл
-    with open(file_html, "w", encoding="utf-8") as f:
+        tbody.append(tr)
+    
+    table.append(tbody)
+    
+    # Insert the table into the template
+    container.append(table)
+
+    # Save the modified HTML to a file
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(soup.prettify())
 
 html()

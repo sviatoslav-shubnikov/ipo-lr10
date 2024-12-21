@@ -1,86 +1,78 @@
 [
     {
-        "Repository": "Byaidu/PDFMathTranslate",
-        "Stars": "8,039"
+        "Repository": "Genesis-Embodied-AI/Genesis",
+        "Stars": "15,603"
     },
     {
-        "Repository": "bigskysoftware/htmx",
-        "Stars": "39,089"
+        "Repository": "comet-ml/opik",
+        "Stars": "3,461"
     },
     {
-        "Repository": "TEN-framework/TEN-Agent",
-        "Stars": "2,931"
+        "Repository": "github/CopilotForXcode",
+        "Stars": "2,259"
     },
     {
-        "Repository": "google-gemini/cookbook",
-        "Stars": "6,823"
+        "Repository": "Helicone/helicone",
+        "Stars": "2,487"
     },
     {
-        "Repository": "yt-dlp/yt-dlp",
-        "Stars": "93,167"
+        "Repository": "XiaoMi/ha_xiaomi_home",
+        "Stars": "13,462"
     },
     {
-        "Repository": "Saghen/blink.cmp",
-        "Stars": "1,878"
+        "Repository": "seleniumbase/SeleniumBase",
+        "Stars": "7,247"
     },
     {
-        "Repository": "ByteByteGoHq/system-design-101",
-        "Stars": "65,829"
+        "Repository": "cline/cline",
+        "Stars": "15,564"
     },
     {
-        "Repository": "wavetermdev/waveterm",
-        "Stars": "6,465"
+        "Repository": "anoma/anoma",
+        "Stars": "11,909"
     },
     {
-        "Repository": "DS4SD/docling",
-        "Stars": "14,885"
+        "Repository": "PatrickJS/awesome-cursorrules",
+        "Stars": "4,057"
     },
     {
-        "Repository": "commaai/openpilot",
-        "Stars": "50,804"
+        "Repository": "scylladb/scylladb",
+        "Stars": "13,832"
     },
     {
-        "Repository": "DataExpert-io/data-engineer-handbook",
-        "Stars": "23,251"
+        "Repository": "meilisearch/meilisearch",
+        "Stars": "48,263"
     },
     {
-        "Repository": "godotengine/godot",
-        "Stars": "91,944"
+        "Repository": "shardeum/shardeum",
+        "Stars": "24,692"
     },
     {
-        "Repository": "midday-ai/midday",
-        "Stars": "6,251"
+        "Repository": "vitest-dev/vitest",
+        "Stars": "13,379"
     },
     {
-        "Repository": "bluewave-labs/checkmate",
-        "Stars": "2,524"
+        "Repository": "nuxt/nuxt",
+        "Stars": "55,433"
     },
     {
-        "Repository": "LazyVim/LazyVim",
-        "Stars": "18,001"
+        "Repository": "meta-llama/llama-stack",
+        "Stars": "5,574"
     },
     {
-        "Repository": "KRTirtho/spotube",
-        "Stars": "32,474"
+        "Repository": "taichi-dev/taichi",
+        "Stars": "26,047"
     },
     {
-        "Repository": "PaperMC/Paper",
-        "Stars": "10,242"
+        "Repository": "stripe/stripe-ios",
+        "Stars": "2,352"
     },
     {
-        "Repository": "RIOT-OS/RIOT",
-        "Stars": "5,181"
+        "Repository": "flutter/flutter",
+        "Stars": "167,262"
     },
     {
-        "Repository": "wasp-lang/wasp",
-        "Stars": "14,252"
-    },
-    {
-        "Repository": "microsoft/windows-rs",
-        "Stars": "10,681"
-    },
-    {
-        "Repository": "flame-engine/flame",
-        "Stars": "9,527"
+        "Repository": "cameron314/concurrentqueue",
+        "Stars": "10,377"
     }
 ]
